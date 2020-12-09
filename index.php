@@ -11,7 +11,7 @@
 			<input type="text" name="name" value="">
 		</div>
 		<div class="input-group">
-			<label>Discription</label>
+			<label>Description</label>
 			<input type="text" name="discription" value="">
 		</div>
 		<div class="input-group">
