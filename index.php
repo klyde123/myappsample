@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>To-Do List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<form method="post" action="server.php" >
