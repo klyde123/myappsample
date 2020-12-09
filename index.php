@@ -7,6 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+<?php if (isset($_SESSION['message'])): ?>
+	<div class="msg">
+		<?php 
+			echo $_SESSION['message']; 
+			unset($_SESSION['message']);
+		?>
+	</div>
+<?php endif ?>
+	
 	<form method="post" action="server.php" >
 		<div class="input-group">
 			<label>Name</label>
